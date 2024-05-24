@@ -142,6 +142,7 @@ document.getElementById('logOut').addEventListener('click', function() {
 
 
 let timeoutId; // Variable to store the timeout ID
+//5000 ms = 5 seconds
 const TIMEOUT_DURATION = 3600000; // 24 hours in milliseconds (1 day)
 
 // Function to handle timeout and log out the user
